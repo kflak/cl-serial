@@ -63,7 +63,8 @@
            (modify-bitfield lflag :enable (canon-bits)))
           (t
            (modify-bitfield lflag :disable (canon-bits isig))
-           (modify-bitfield oflag :disable (opost))))))
+           (modify-bitfield oflag :disable (opost))
+           (modify-bitfield iflag :disable (icrnl))))))
     
     ;; Set new attributes
     (tcsetattr fd attr))

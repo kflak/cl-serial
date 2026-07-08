@@ -111,3 +111,4 @@
 (defconstant echoe sb-posix:echoe)
 (defconstant isig sb-posix:isig)
 (defconstant opost sb-posix:opost)
+(defconstant icrnl sb-posix:icrnl)
