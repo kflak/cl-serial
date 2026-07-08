@@ -108,3 +108,4 @@
 (defconstant echoe unix:ECHOE)
 (defconstant isig unix:ISIG)
 (defconstant opost unix:OPOST)
+(defconstant icrnl sb-posix:icrnl)
